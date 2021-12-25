@@ -16,7 +16,7 @@ Tras ello, para compilar tanto el front como el backend, ejecutar:
 npm run build
 ```
 
-Finalmente, para ejecutar la aplicación ejecutar:
+Finalmente, para ejecutar la aplicación:
 ```
 npm start
 ```
