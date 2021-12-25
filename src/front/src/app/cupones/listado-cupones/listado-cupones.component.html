@@ -1,0 +1,9 @@
+<mat-list class="lista-cupones">
+  <mat-list-item *ngFor="let cupon of listaCupones">
+    <app-elemento-cupon class="w-100" [cupon]="cupon"></app-elemento-cupon>
+  </mat-list-item>
+</mat-list>
+<button class="boton-generar" mat-raised-button color="primary" (click)="generarCupones()">
+  <span class="material-icons">replay</span>
+  <span class="material-icon-label-rigth">Generar otros {{listaCupones.length}} cupones</span>
+</button>

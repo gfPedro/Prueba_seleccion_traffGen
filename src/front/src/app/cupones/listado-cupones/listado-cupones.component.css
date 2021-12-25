@@ -1,0 +1,15 @@
+.lista-cupones {
+  margin: auto;
+}
+
+.w-100 {
+  width: 100%;
+}
+.boton-generar {
+  float: right;
+  margin: 1rem;
+}
+
+.material-icon-label-rigth {
+  margin: 0 .25rem;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "generador-cupones",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/back/app.js",
+    "dev": "nodemon src/back/app.ts",
+    "install-all": "npm install && cd src/front && npm install",
+    "build": "cd src/back && tsc && cd ../../src/front && ng build --prod --output-path ../../dist/front",
+    "build-back": "cd src/back && tsc",
+    "build-front": "cd src/front && ng build --prod --output-path ../../dist/front"
+  },
+  "author": "Pedro Guembe Fernández",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.10.7",
+    "express": "^4.17.2",
+    "pino": "^7.5.1",
+    "pino-pretty": "^7.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.0",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
